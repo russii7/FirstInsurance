@@ -1,0 +1,51 @@
+<p>register works!</p>
+<br><hr>
+
+<div class="container-fluid" class="shadow-lg p-2 mb-1 bg-silver rounded">
+    <div class="row">
+        <div class="col"></div>
+        <div class="col" style="align-items: center; padding:50px;background-color: beige;" >
+            <img src="../../../assets/login-3.png" style="border-radius: 20px 60px 20px 60px;" type="responsive">
+            <br>
+            <span>
+                <h2><b>Register Here To Know More</b></h2>
+                <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt ea quo eveniet nam earum debitis
+                    quisquam magnam, autem quasi. Commodi?</h6>
+            </span>
+        </div>
+        <div class="col" style="background-color: beige;">
+            <img src="../../../assets/logo.png" style="margin-left: 78px;" class="shadow-lg p-2 mb-1 bg-silver rounded">
+            <form name="myForm" (ngModel)="onSubmitForm(myForm)">
+                <div class="form-group">
+                    <label for="fname">Full Name</label>
+                    <input type="text" name="fname" class="form-control" >
+                </div>
+                <div class="form-group">
+                    <label for="number">Mobile number</label>
+                    <input type="number" name="number" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email-id</label>
+                    <input type="email" name="email" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="cpass">Password</label>
+                    <input type="password" name="pass" class="form-control" >
+                </div>
+                <div class="form-group">
+                    <label for="cpass">Password</label>
+                    <input type="password" name="cpass" class="form-control">
+                </div><br>
+                
+                    <button class="btn btn-danger">Register</button>
+                    &nbsp;&nbsp;
+                    <button class="btn btn-warning" type="reset">Clear</button>
+                
+            </form>
+        </div>
+        <div class="col"></div>
+
+
+
+    </div>
+</div>

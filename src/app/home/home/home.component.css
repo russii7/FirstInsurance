@@ -1,0 +1,13 @@
+.py-5{
+    background-color: rgb(195, 175, 175);
+}
+
+#svg:hover{
+    color: hotpink;
+    width: 20px;
+    height: 20px;
+    
+}
+.social{
+    padding: 10px;
+}
